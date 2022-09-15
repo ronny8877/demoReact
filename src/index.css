@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.btn-primary{
+  @apply bg-blue-500 h-10 text-white p-2 rounded-lg font-ubuntu mt-5 hover:bg-blue-600 duration-200 
+}
+
+
+.btn-danger{
+  @apply bg-red-500 h-10 text-white p-2 rounded-lg font-ubuntu mt-5 hover:bg-red-600 duration-200 
+}
